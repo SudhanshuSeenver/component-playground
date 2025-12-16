@@ -73,6 +73,34 @@ export default function ComponentRenderer({ name }) {
           ))}
         </>
       ),
+      3: (
+        <>
+          <div className="bg-blue-500 text-white p-12 w-full text-center text-2xl h-full flex items-center justify-center">
+            Slide 1
+          </div>
+          <div className="bg-green-500 text-white p-12 w-full text-center text-2xl h-full flex items-center justify-center">
+            Slide 2
+          </div>
+          <div className="bg-purple-500 text-white p-12 w-full text-center text-2xl h-full flex items-center justify-center">
+            Slide 3
+          </div>
+          <div className="bg-red-500 text-white p-12 w-full text-center text-2xl h-full flex items-center justify-center">
+            Slide 4
+          </div>
+          <div className="bg-blue-500 text-white p-12 w-full text-center text-2xl h-full flex items-center justify-center">
+            Slide 5
+          </div>
+          <div className="bg-grey-500 text-white p-12 w-full text-center text-2xl h-full flex items-center justify-center">
+            Slide 3
+          </div>
+          <div className="bg-red-500 text-white p-12 w-full text-center text-2xl h-full flex items-center justify-center">
+            Slide 3
+          </div>
+          <div className="bg-green-500 text-white p-12 w-full text-center text-2xl h-full flex items-center justify-center">
+            Slide 3
+          </div>
+        </>
+      ),
     },
   };
 
